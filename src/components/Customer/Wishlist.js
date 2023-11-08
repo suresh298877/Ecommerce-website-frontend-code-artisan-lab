@@ -74,7 +74,7 @@ function Wishlist(props) {
                                                     <td>1</td>
                                                     <td>
                                                     {/* {console.log(item.product.image)} */}
-                                                        <Link><img src={'http://127.0.0.1:8000/'+item.product.image} className="img-thumbnail" width={80} alt="..." /></Link>
+                                                        <Link><img src={'https://suresh2988.pythonanywhere.com/'+item.product.image} className="img-thumbnail" width={80} alt="..." /></Link>
                                                         <p><Link>{item.product.title}</Link></p>
                                                     </td>
 
